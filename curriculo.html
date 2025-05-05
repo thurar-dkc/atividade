@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            display: flex;
+            flex-direction: row;
+            min-height: 100vh;
+            background-color: #f4f4f4;
+        }
+        #bloco-esquerda {
+            display: flex;
+            flex-direction: column;
+            width: 25%;
+            background-color: #3a4c57;
+            color: white;
+            padding: 20px;
+        }
+        #foto {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        #foto img {
+            border-radius: 8px;
+            width: 100%;
+            max-width: 150px;
+        }
+        #indice {
+            background-color: #495763;
+            padding: 15px;
+            border-radius: 8px;
+        }
+        #indice h2 {
+            text-align: center;
+        }
+        #indice ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        #indice li {
+            margin: 10px 0;
+        }
+        #indice a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+        #indice a:hover {
+            color: #ff8c00;
+        }
+        #bloco-direita {
+            flex-grow: 1;
+            background-color: #90b1db;
+            padding: 20px;
+            color: #333;
+            overflow-y: auto;
+        }
+        h2 {
+            font-size: 24px;
+            margin-top: 20px;
+        }
+        p {
+            line-height: 1.6;
+        }
+        @media (max-width: 768px) {
+            body {
+                flex-direction: column;
+                height: auto;
+            }
+            #bloco-esquerda {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+            #bloco-direita {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="bloco-esquerda">
+        <div id="foto">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSC-ZDVcqn85hXGxm5UEJLxc1WNig4wntitcA&s" alt="Michelangelo" />
+            <h1>Michelangelo</h1>
+        </div>
+        <div id="indice">
+            <h2>Índice</h2>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#experiencia">Experiência</a></li>
+                <li><a href="#educacao">Educação</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="bloco-direita">
+        <h2 id="sobre">Sobre</h2>
+        <p>Sou Michelangelo, também conhecido como Mikey, uma das Tartarugas Ninja treinadas por Splinter. Ao longo da minha jornada, desenvolvi um forte senso de responsabilidade e trabalho em equipe, apesar de ser o mais descontraído e otimista do grupo. Sou especializado no uso dos nunchakus, o que me exige não apenas habilidades físicas, mas também foco e precisão.</p>
+
+        <h2 id="experiencia">Experiência</h2>
+        <p>Tenho uma vasta experiência em combate corpo a corpo, resolução de problemas e trabalho em equipe. Ao longo dos anos, desempenhei um papel importante como membro da equipe das Tartarugas Ninja, onde trabalhei ao lado dos meus irmãos para proteger Nova York de ameaças como o Destruidor e outros vilões. Além das minhas habilidades em artes marciais, também sou muito criativo e entusiasta da culinária, especialmente quando se trata de pizzas.</p>
+
+        <h2 id="educacao">Educação</h2>
+        <p>Eu sou um autodidata, tendo aprendido principalmente com meus irmãos e com o meu mestre, o ratinho Splinter. A minha educação foi focada em habilidades práticas, como artes marciais, estratégias de combate e resolução de conflitos. Aprendi a me adaptar rapidamente a qualquer situação e a trabalhar em equipe, o que me ajudou a enfrentar muitos desafios ao longo da minha jornada.</p>
+
+        <h2 id="projetos">Projetos</h2>
+        <p>Eu participei de diversos projetos ao longo da minha trajetória, sempre com o objetivo de proteger a cidade e apoiar minha equipe. Aqui estão alguns dos mais notáveis:</p>
+        <ul>
+            <li><strong>Defesa de Nova York:</strong> Atuo com meus irmãos de batalha para defender a cidade contra vilões como Destruidor e Krang.</li>
+            <li><strong>Treinamento de habilidades ninja:</strong> Através do treinamento com o mestre Splinter, aprimoro constantemente minhas habilidades de combate e disciplina.</li>
+            <li><strong>Projeto Pizzas & Diversão:</strong> Organizo "Noites de Pizza" para garantir que a equipe se divirta e recarregue as energias.</li>
+            <li><strong>Inovação em Tecnologia com Donatello:</strong> Auxilio meu irmão Donatello em seus projetos tecnológicos, sempre com foco em soluções criativas.</li>
+        </ul>
+
+        <h2 id="contato">Contato</h2>
+        <p>Email: <a href="mailto:mikey@tartarugasninja.com">mikey@tartarugasninja.com</a></p>
+        <p>Telefone: 555-NINJA</p>
+        <p>Redes sociais: <a href="https://www.instagram.com/mikeyninja" target="_blank">@mikeyninja</a> (Instagram) / <a href="https://twitter.com/mikeyninja" target="_blank">@mikeyninja</a> (Twitter)</p>
+    </div>
+</body>
+</html>
